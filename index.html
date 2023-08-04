@@ -2,27 +2,49 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+
+    <title>Google</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
-    <h1>hello HTML!</h1>
-    <img src="img/cat.jpeg" alt="cat">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim blanditiis quisquam illo reiciendis, quaerat ea
-        consectetur animi vel magni voluptas quia a eveniet, quibusdam magnam, vitae quam ullam corrupti natus?</p>
-    <ol>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae est ratione accusantium
-            voluptatibus. Dolores impedit harum omnis necessitatibus, non nisi quo molestias quidem facere praesentium
-            et, eligendi explicabo rerum!</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut?</li>
-    </ol>
+    <div id="container">
+        <header>
+            <nav class="navh">
+                <button class="btn1" type="button">
+                    <a href="file:///D:/web.vs%20code/2022/cs50(2.2)/index.html" class="a1">Пошук по фото</a>
+                </button>
+                <button class="btn2" type="button">
+                    <a href="" class="a2">Розширений пошук</a>
+                </button>
+            </nav>
+        </header>
+        <main class="logo">
+            <div class="wrapper">
+                <div>
+                    <img src=".//Google_2015_logo.svg.png" alt="Google" class="google">
+                </div>
+                <form id="search" action="https://google.com/search">
+                    <input type="text" name="q" placeholder="Пошук">
+                    <div class="buttons">
+                        <button type="submit" form="search" name="btnS" value="Пошук Google"
+                            class="btn btn-secondary">Пошук Google</button>
+                        <button type="submit" form="search" name="btnI" value="Мені пощастить"
+                            class="btn btn-secondary">Мені пощастить</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <div id="Ukraine">
+            <p>Україна</p>
+        </div>
+        <footer></footer>
+    </div>
 </body>
 
 </html>
